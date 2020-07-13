@@ -1,0 +1,21 @@
+{
+  "mongo": {
+    "db": "mongodb",
+    "host": "127.0.0.1",
+    "port1": "27017",
+    "port2": "27018",
+    "port3": "27019",
+    "replSetName": "spike",
+    "database": "workout"
+  },
+  "dbOptions": {
+    "useNewUrlParser": true,
+    "useCreateIndex": true,
+    "useFindAndModify": false,
+    "poolSize": 100,
+    "socketTimeoutMS": 30000,
+    "connectTimeoutMS": 30000,
+    "useUnifiedTopology": true
+  },
+  "application_serverport": 3000
+}

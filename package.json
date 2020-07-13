@@ -1,0 +1,21 @@
+{
+  "name": "els",
+  "version": "1.0.0",
+  "description": "",
+  "main": "route.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "replSet": "./scripts/create_replica_set.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.7.1",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoosastic": "^4.6.0",
+    "mongoose": "^5.9.18"
+  }
+}
